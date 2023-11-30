@@ -1,0 +1,428 @@
+
+.container .nav{
+    display: flex;
+    justify-content: space-between;
+   width: 100%;
+   height: 70px;
+   padding: 0%;
+   box-sizing: border-box;
+  background: rgba(0,0, 0, 0.6);
+
+}
+.container .nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    
+}
+
+.container{
+    width: 100%;
+    height: 70%;
+    height: auto;
+    justify-content: space-around;
+    
+}
+
+.container .nav button{
+  margin-top: 2%;
+    text-align: left;
+    display: inline;
+   color: white;
+   size: 20%;
+   border-radius: 10%;
+   background-color: red;
+   width: 70px;
+   height: 40px;
+   text-align: center;
+}
+body{
+    margin: 0%;
+    background-color: rgba(27, 26, 26,1);
+    color: white;
+    
+}
+ .container .img{
+    background:  rgba(0,1,2,0.55)url(../img_sec4/wall.jpg);
+   background-blend-mode: darken;
+   background-size: cover;
+  
+}
+.container .text h1{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    padding-top: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.container .text h3{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container .text input{
+    background-color: white;
+ 
+   width: 30%;
+   padding: 12px;
+   margin-left: 40%;
+   color: grey;
+
+}
+.container .text button{
+    background-color: red;
+    display: inline;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 12px;
+    width: 10%;
+color: white;
+}
+
+.cont_offline{
+  background-color: black;
+  display: flex;
+          height: 70%;
+          margin-top: 1%;
+          padding: 10%;
+        
+
+}
+.offline .o{
+  background-color: black;
+  display: flex;
+          height: 70%;
+          margin-top: 1%;
+          padding: 10%;
+         
+         
+  }
+.o{
+  height: 80%;
+  margin-top: 1%;
+  padding: 10%;
+  background-color: black;
+}
+.o h1{
+  margin-top: 10%;
+  text-align: center;
+  font-size: 42px;
+}
+.o p{
+  margin-left: 2%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.cont_offline img{
+  max-width: 500px;
+  margin-left: 0%;
+  float: left;      
+
+}
+
+.cont_enjoy{
+  background-color: black;
+  display: flex;
+          height: 70%;
+          margin-top: 1%;
+          padding: 10%;
+}
+.cont_enjoy .s{
+  background-color: black;
+}
+.cont_enjoy .s{
+ 
+  height: 80%;
+  margin-top: 1%;
+  padding: 10%;
+  background-color: rgb(0, 0, 0);
+  
+}
+.s h1{
+  margin-top: 10%;
+  text-align: center;
+  font-size: 42px;
+ 
+}
+.s p{
+  margin-left: 2%;
+  text-align: center;
+  font-size: 25px;
+}
+.cont_enjoy img{
+  max-width: 600px;
+  margin-left: 0%;
+  float: left;
+  
+}
+
+.cont_everywhere .w{
+  background-color: black;
+}
+
+.cont_everywhere{
+  background-color: black;
+  display: flex;
+          height: 70%;
+          margin-top: 1%;
+          padding: 10%;
+         
+
+}
+.cont_everywhere .w{
+  background-color: black;
+}
+.w{
+  height: 80%;
+  margin-top: 1%;
+  padding: 10%;
+  background-color: black;
+  
+}
+
+.w h1{
+  margin-left: 2%;
+  margin-top: 20%;
+  text-align: center;
+  font-size: 42px;
+}
+.w p{
+  margin-left: 2%;
+  text-align: center;
+  font-size: 25px;
+}
+.cont_everywhere img{
+  max-width: 600px;
+  margin-left: 0%;
+  float: left;
+  
+    
+}
+
+.cont_child img{
+  max-width: 600px;
+  margin-left: 0%;
+  float: left;
+  
+  
+}
+.cont_child{
+background-color: black;
+display: flex;
+        height: 70%;
+        margin-top: 1%;
+        padding: 10%;
+       
+       
+}
+.cont_cild .z{
+  
+        background-color: black;
+        
+}
+.z h1{
+  margin-top: 10%;
+    text-align: center;
+    font-size: 42px;
+}
+.z p{
+    text-align: center;
+    font-size: 25px;
+}
+.z img{
+    width: auto;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.n{
+    height: 85%;
+    margin-top: 1%;
+    padding: 10%;
+    background-color: black;
+}
+.n h2{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 30px;
+}
+.accordion {
+    background-color: rgb(31, 30, 30);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 1%;
+  }
+  .accordion1 {
+    background-color: rgb(31, 30, 30);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 1%;
+  }
+  .accordion2 {
+    background-color: rgb(31, 30, 30);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 1%;
+  }
+  .accordion4 {
+    background-color: rgb(31, 30, 30);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 1%;
+  }
+  .accordion5{
+    background-color: rgb(31, 30, 30);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 1%;
+  }
+  
+  .active, .accordion:hover {
+    background-color:grey; 
+  }
+  .active, .accordion1:hover {
+    background-color:grey; 
+  }
+  .active, .accordion2:hover {
+    background-color:grey; 
+  }
+  .active, .accordion4:hover {
+    background-color:grey; 
+  }
+  .active, .accordion5:hover {
+    background-color:grey; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  .panel p{
+    color: white;
+  }
+ .accordion{
+    color: white;
+  }
+  .accordion1{
+    color: white;
+  }
+  .accordion2{
+    color: white;
+  }
+  
+  .accordion4{
+    color: white;
+  }
+  .accordion5{
+    color: white;
+  }
+  .n input{
+    border: 10%;
+    border-color: white;
+    background-color: white;
+    margin-left: 28%;
+    padding: 20px;
+    width: 40%;
+    margin-top: 2%;
+  }
+  .n .d{
+    display: inline;
+    background-color: red;  
+    padding: 20px;
+    width: 15%;
+color: white;
+  }
+ .accordion i{
+text-align: left;
+display: inline-flex;
+margin-left: 85%;
+  }
+  .accordion1 i{
+    text-align: left;
+    display: inline-flex;
+    margin-left: 76%;
+      }
+  .accordion2 i{
+    text-align: left;
+    display: inline-flex;
+    margin-left: 82%;
+      }
+      .accordion4 i{
+        text-align: left;
+        display: inline-flex;
+        margin-left: 76%;
+          }
+          .accordion5 i{
+            text-align: left;
+            display: inline-flex;
+            margin-left: 80%;
+              }
+
+              .r{
+                color: gray;
+                height: 30%;
+                margin-top: 1%;
+                padding: 10%;
+                background-color: black;
+                margin-left: 0%;
+                 
+            }
+          
+           .r .main{
+              justify-content: space-around;
+              display: flex;
+            }
+            .r .b{
+             float: left;
+            }
+            .r .c{
+              float: left;
+            }
+            .r .d{
+              float: left;
+            }
